@@ -27,15 +27,27 @@ x = [1,2,3,4,5]
 y = [3,5,7,9,11]
 thus, r = 1, because x and y have a perfect (negative) linear relationship
 ```
+
+<img src="https://github.com/moritzmitterdorfer/Correlation/blob/master/imgs/r_p1.png" width="500" alt="...">
+
 ```
 think of the linear relationship y = -x:
 x = [1,2,3,4,5]
 y = [-1,-2,-3,-4,-5]
 thus, r = -1, because x and y have a perfect (negative) linear relationship
 ```
+
+<img src="https://github.com/moritzmitterdorfer/Correlation/blob/master/imgs/r_m1.png" width="500" alt="...">
+
 ```
 think of a non-linear relationship:
 x = [-1,-2,-3,-4,-5]
 y = [101,4,9,16,25]
-thus, r = 0, because x and y have no (linear) relationship
+thus, r ≈ 0, because x and y have no (linear) relationship
 ```
+<img src="https://github.com/moritzmitterdorfer/Correlation/blob/master/imgs/r_0.png" width="500" alt="...">
+
+## Description
+Statistics.description() prints out the pearson coefficient:
+
+<img src="https://github.com/moritzmitterdorfer/Correlation/blob/master/imgs/description.png" width="500" alt="...">
